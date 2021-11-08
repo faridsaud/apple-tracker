@@ -2,8 +2,8 @@
   "name": "IPhoneIventoryTracker",
   "displayName": "IPhoneIventoryTracker",
   "expo": {
-    "name": "IPhoneIventoryTracker",
-    "slug": "iphone-tracker",
+    "name": "Apple tracker",
+    "slug": "apple-tracker",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
