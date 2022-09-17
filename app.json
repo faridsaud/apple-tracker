@@ -1,6 +1,6 @@
 {
-  "name": "IPhoneIventoryTracker",
-  "displayName": "IPhoneIventoryTracker",
+  "name": "AppleTracker",
+  "displayName": "AppleTracker",
   "expo": {
     "name": "Apple tracker",
     "slug": "apple-tracker",
@@ -8,6 +8,17 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "description": ""
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "5f430b9f-2f4c-4701-888e-447694aa2b2b"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "android": {},
+    "ios": {},
+    "updates": {
+      "url": "https://u.expo.dev/5f430b9f-2f4c-4701-888e-447694aa2b2b"
+    }
   }
 }
