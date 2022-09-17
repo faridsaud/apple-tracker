@@ -1,40 +1,21 @@
 {
-  "main": "index.js",
+  "name": "apple-tracker",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "web": "expo start --web",
-    "start": "react-native start",
-    "test": "jest"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
-    "axios": "^0.22.0",
-    "expo": "~41.0.1",
-    "expo-splash-screen": "~0.10.2",
-    "expo-updates": "~0.5.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-native": "~0.63.4",
-    "react-native-gesture-handler": "~1.10.2",
-    "react-native-reanimated": "~2.1.0",
-    "react-native-screens": "~3.0.0",
-    "react-native-unimodules": "~0.13.3",
-    "react-native-web": "~0.13.12"
+    "expo": "~46.0.9",
+    "expo-status-bar": "~1.4.0",
+    "react": "18.0.0",
+    "react-native": "0.69.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@types/react": "~16.9.35",
-    "@types/react-native": "~0.63.2",
-    "babel-preset-expo": "~8.3.0",
-    "eas-cli": "^2.1.0",
-    "jest-expo": "~41.0.0",
-    "prettier": "^2.4.1",
-    "typescript": "~4.0.0"
+    "@babel/core": "^7.12.9"
   },
-  "jest": {
-    "preset": "react-native"
-  },
-  "author": "faridsaud",
-  "license": "MIT",
   "private": true
 }
